@@ -1,0 +1,15 @@
+.counter {
+    background-color:rgba(40, 238, 192, 0.8);
+    margin: 20px;
+    padding: 20px ;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.counter button {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(163, 251, 224);
+    border: 1px solid black;
+}
