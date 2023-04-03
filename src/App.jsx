@@ -9,25 +9,23 @@ import Services from './components/Services';
 function App() {
   return (
     <>
-    <div>
+      <div>
+        <nav>
+            <Link to="/">Home</Link>
+            <Link to="/about">About us</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/counter">Counter</Link>
+        </nav>
 
-       <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About us</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/counter">Counter</Link>
-       </nav>
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={ <About />} />
-        <Route path='/blog' element={ <Blog />} />
-        <Route path='/services' element={ <Services />} />
-        <Route path='/counter' element={ <Counter />} />
-      </Routes>
-    </div>
-
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={ <About />} />
+          <Route path='/blog' element={ <Blog />} />
+          <Route path='/services' element={ <Services />} />
+          <Route path='/counter' element={ <Counter />} />
+        </Routes>
+      </div>
     </>
    
   );
